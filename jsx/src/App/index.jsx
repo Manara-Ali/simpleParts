@@ -1,3 +1,6 @@
+// IMPORT STYLE
+import "./styles.css";
+
 // 1. IMPORT REACT
 import React from "react";
 
