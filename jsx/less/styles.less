@@ -1,5 +1,34 @@
+@reset-margin: 0;
+@reset-padding: 0;
+@reset-box-sizing: border-box;
+@font-family: "Roboto", sans-serif;
+@background-color: #fff;
+@font-size-12px: 5px;
+@header-width: 100%;
+@header-height: 30px;
+@header-container-margin: 123px;
+@header-container-padding: 10px;
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  // margin: @reset-margin;
+  // padding: @reset-padding;
+  box-sizing: @reset-box-sizing;
+}
+
+body {
+  font-family: @font-family;
+  background-color: @background-color;
+}
+
+.h1TextHeader {
+  font-size: @font-size-12px;
+}
+
+.h1TextHeader {
+  .container {
+    padding-left: @header-container-padding;
+    padding-right: @header-container-padding;
+    margin-left: @header-container-margin;
+    margin-right: @header-container-margin;
+  }
 }

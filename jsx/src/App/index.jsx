@@ -5,12 +5,13 @@ import "./styles.css";
 import React from "react";
 
 // 2. ADDITION IMPORTS
+import Header from "./../Header";
 
 // 3. CREATE A FUNCTION BASED COMPONENT
 const App = () => {
   return (
     <div>
-      <h1>App</h1>
+      <Header />
     </div>
   );
 };
