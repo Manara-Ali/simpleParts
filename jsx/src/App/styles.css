@@ -6,11 +6,116 @@ body {
   background-color: #fff;
 }
 .h1TextHeader {
+  margin-bottom: 15px;
   font-size: 5px;
 }
 .h1TextHeader .container {
+  width: 960px;
+  margin: auto;
+}
+.navbar {
+  width: 100%;
+}
+.navbar .navbar-container {
+  display: flex;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 123px;
-  margin-right: 123px;
+  width: 960px;
+  margin: auto;
+}
+.navbar .navbar-container .business-information {
+  display: flex;
+}
+.navbar .navbar-container .business-information h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  width: 690px;
+}
+.navbar .navbar-container .business-information .navbar-link-group {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  width: 175px;
+  padding: 0;
+}
+.navbar .navbar-container .business-information .navbar-link-group .dropdown-toggle {
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar .navbar-container .business-information .navbar-link-group .dropdown-toggle:visited {
+  color: #000;
+}
+.navbar .navbar-container .business-information .navbar-link-group .arrow-down {
+  transform: scale(0.4);
+  padding-top: -5px;
+}
+.navbar .navbar-container .business-information .navbar-link-group .arrow-right {
+  transform: scale(0.4);
+}
+.navbar .navbar-container .header-logo {
+  width: 100px;
+  height: 55px;
+}
+.navbar .navbar-container .header-logo .navbar-brand {
+  margin-top: 5px;
+  width: 90px;
+  height: 40px;
+}
+.navbar .navbar-container .header-logo .navbar-brand .navbar-image {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  top: -25px;
+  right: -10px;
+  border: 25px;
+  left: 10px;
+  transform: matrix(0.6, 0, 0, 0.6, 0, 0);
+  vertical-align: middle;
+}
+.navbar .navbar-container .business-contact {
+  display: flex;
+  font-size: 12px;
+}
+.navbar .navbar-container .business-contact .business-contact-location {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.navbar .navbar-container .business-contact .business-contact-location .header-location {
+  transform: scale(0.6);
+  margin-top: -10px;
+  margin-right: -5px;
+  margin-bottom: -5px;
+}
+.navbar .navbar-container .business-contact .business-contact-phone {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.navbar .navbar-container .business-contact .business-contact-phone .header-phone {
+  transform: scale(0.6);
+  margin-top: -10px;
+  margin-right: -5px;
+  margin-bottom: -5px;
+}
+.navbar .navbar-container .business-contact .business-contact-email {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.navbar .navbar-container .business-contact .business-contact-email .small {
+  text-decoration: none;
+}
+.navbar .navbar-container .business-contact .business-contact-email .small:visited {
+  color: #000;
+}
+.navbar .navbar-container .business-contact .business-contact-email .small:hover {
+  text-decoration: underline;
+  color: #23527c;
+}
+.navbar .navbar-container .business-contact .business-contact-email .header-envelop {
+  transform: scale(0.6);
+  margin-top: -10px;
+  margin-right: -5px;
+  margin-bottom: -5px;
+  padding-right: 5px;
 }

@@ -6,8 +6,16 @@
 @font-size-12px: 5px;
 @header-width: 100%;
 @header-height: 30px;
-@header-container-margin: 123px;
+@header-container-margin: 51.5px;
 @header-container-padding: 10px;
+@logo-image-width: 90px;
+@logo-image-height: 90px;
+@logo-image-position: relative;
+@logo-image-top: -25px;
+@logo-image-right: -10px;
+@logo-image-bottom: 25px;
+@logo-image-left: 10px;
+@navbar-width: 100%;
 
 * {
   // margin: @reset-margin;
@@ -21,14 +29,122 @@ body {
 }
 
 .h1TextHeader {
+  margin-bottom: 15px;
   font-size: @font-size-12px;
+  .container {
+    width: 960px;
+    margin: auto;
+  }
 }
 
-.h1TextHeader {
-  .container {
-    padding-left: @header-container-padding;
-    padding-right: @header-container-padding;
-    margin-left: @header-container-margin;
-    margin-right: @header-container-margin;
+.navbar {
+  width: @navbar-width;
+  .navbar-container {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 960px;
+    margin: auto;
+    .business-information {
+      display: flex;
+      h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: auto;
+        width: 690px;
+      }
+      .navbar-link-group {
+        display: flex;
+        margin: 0;
+        list-style: none;
+        width: 175px;
+        padding: 0;
+        .dropdown-toggle {
+          font-size: 12px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        .dropdown-toggle:visited {
+          color: #000;
+        }
+        .arrow-down {
+          transform: scale(0.4);
+          padding-top: -5px;
+        }
+        .arrow-right {
+          transform: scale(0.4);
+          // padding-top: -50px;
+        }
+      }
+    }
+    .header-logo {
+      width: 100px;
+      height: 55px;
+      .navbar-brand {
+        margin-top: 5px;
+        width: 90px;
+        height: 40px;
+        .navbar-image {
+          position: @logo-image-position;
+          width: @logo-image-width;
+          height: @logo-image-height;
+          top: @logo-image-top;
+          right: @logo-image-right;
+          border: @logo-image-bottom;
+          left: @logo-image-left;
+          transform: matrix(0.6, 0, 0, 0.6, 0, 0);
+          vertical-align: middle;
+        }
+      }
+    }
+    .business-contact {
+      display: flex;
+      font-size: 12px;
+
+      .business-contact-location {
+        margin-top: 10px;
+        margin-right: 10px;
+        .header-location {
+          transform: scale(0.6);
+          margin-top: -10px;
+          margin-right: -5px;
+          margin-bottom: -5px;
+        }
+      }
+      .business-contact-phone {
+        margin-top: 10px;
+        margin-right: 10px;
+        .header-phone {
+          transform: scale(0.6);
+          margin-top: -10px;
+          margin-right: -5px;
+          margin-bottom: -5px;
+        }
+      }
+      .business-contact-email {
+        margin-top: 10px;
+        margin-right: 10px;
+
+        .small {
+          text-decoration: none;
+        }
+
+        .small:visited {
+          color: #000;
+        }
+
+        .small:hover {
+          text-decoration: underline;
+          color: #23527c;
+        }
+        .header-envelop {
+          transform: scale(0.6);
+          margin-top: -10px;
+          margin-right: -5px;
+          margin-bottom: -5px;
+          padding-right: 5px;
+        }
+      }
+    }
   }
 }
