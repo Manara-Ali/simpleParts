@@ -8,6 +8,7 @@ import React from "react";
 import Header from "./../Header";
 import Navbar from "../Navbar";
 import SearchBar from "../SearchBar";
+import Welcome from "../Welcome";
 
 // 3. CREATE A FUNCTION BASED COMPONENT
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Header />
       <Navbar />
       <SearchBar />
+      <Welcome />
     </div>
   );
 };
