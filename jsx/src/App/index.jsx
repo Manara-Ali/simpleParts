@@ -9,6 +9,7 @@ import Header from "./../Header";
 import Navbar from "../Navbar";
 import SearchBar from "../SearchBar";
 import Welcome from "../Welcome";
+import Wrapper from "../Wrapper";
 
 // 3. CREATE A FUNCTION BASED COMPONENT
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Navbar />
       <SearchBar />
       <Welcome />
+      <Wrapper />
     </div>
   );
 };
