@@ -2,18 +2,15 @@
 import React from "react";
 
 // 2. ADDITIONAL IMPORTS
-import Showcase from "../Showcase";
-import Make from "../Make";
 
 // 3. CREATE FUNCTION BASED COMPONENT
-const Wrapper = () => {
+const Make = () => {
   return (
-    <div id="content-wrapper">
-      <Showcase />
-      <Make />
+    <div id="content-page-body">
+      <h1>Make</h1>
     </div>
   );
 };
 
 // 4. EXPORT COMPONENT TO BE USED IN OTHER PARTS OF OUR APPLICATION
-export default Wrapper;
+export default Make;

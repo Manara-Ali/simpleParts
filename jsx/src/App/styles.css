@@ -235,3 +235,42 @@ body {
   text-decoration: underline;
   color: #23527c;
 }
+#content-wrapper {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+#content-wrapper .jumbotron-dealer {
+  display: flex;
+}
+#content-wrapper .jumbotron-dealer > div {
+  width: 31.2%;
+  height: 260px;
+}
+#content-wrapper .jumbotron-dealer > .message {
+  background-color: #072847;
+  width: 74.5%;
+  height: 260px;
+}
+#content-wrapper .jumbotron-dealer > .message .panel-heading {
+  padding: 20px 20px 10px 20px;
+  width: 593.75px;
+  height: 78px;
+}
+#content-wrapper .jumbotron-dealer > .message .panel-heading h2 {
+  color: #fff;
+  font-family: "Verdana", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0;
+  width: 593.75px;
+  height: 48px;
+}
+#content-wrapper .panel-body {
+  width: 682.5px;
+  height: 132px;
+  padding: 10px 20px 20px 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 17px;
+  color: #fff;
+  font-size: 12px;
+}

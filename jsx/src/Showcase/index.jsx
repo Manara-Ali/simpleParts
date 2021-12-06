@@ -7,61 +7,13 @@ import heroes from "./../files/images/parts/heroes/default.jpg";
 // 3. CREATE FUNCTION BASED COMPONENT
 const Showcase = () => {
   return (
-    <div
-      className="jumbotron-dealer"
-      style={{
-        display: "flex",
-      }}
-    >
-      <div
-        style={{
-          backgroundImage: `url(${heroes})`,
-          width: "31.2%",
-          height: "260px",
-        }}
-      ></div>
-      <div
-        style={{
-          backgroundColor: "#072847",
-          width: "75%",
-          height: "260px",
-        }}
-      >
-        <div
-          className="panel-heading"
-          style={{
-            padding: "20px 20px 10px 20px",
-            width: "593.750px",
-            height: "78px",
-            // borderBottom: "1px solid #fff",
-          }}
-        >
-          <h2
-            style={{
-              color: "#fff",
-              fontFamily: "Verdana,sans-serif",
-              fontWeight: "bold",
-              fontSize: "22px",
-              margin: "0",
-              width: "593.750px",
-              height: "48px",
-            }}
-          >
-            Premium Austin Healey, Jaguar, MG, and Triumph Parts
-          </h2>
+    <div className="jumbotron-dealer">
+      <div style={{ backgroundImage: `url(${heroes})` }}></div>
+      <div className="message">
+        <div className="panel-heading">
+          <h2>Premium Austin Healey, Jaguar, MG, and Triumph Parts</h2>
         </div>
-        <div
-          className="panel-body"
-          style={{
-            width: "682.50px",
-            height: "132px",
-            padding: "10px 20px 20px 20px",
-            fontFamily: "'Roboto',sans-serif",
-            lineHeight: "17px",
-            color: "#fff",
-            fontSize: "12px",
-          }}
-        >
+        <div className="panel-body">
           <span>
             Unmistakable style. That's what you love about your Austin Healey,
             Jaguar, MG, or Triumph. At EnglishParts.com, we carry a large
