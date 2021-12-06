@@ -4,6 +4,7 @@ import React from "react";
 // 2. ADDITIONAL IMPORTS
 import Showcase from "../Showcase";
 import Make from "../Make";
+import Category from "../Category";
 
 // 3. CREATE FUNCTION BASED COMPONENT
 const Wrapper = () => {
@@ -11,6 +12,7 @@ const Wrapper = () => {
     <div id="content-wrapper">
       <Showcase />
       <Make />
+      <Category />
     </div>
   );
 };
