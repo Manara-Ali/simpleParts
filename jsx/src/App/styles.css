@@ -119,3 +119,92 @@ body {
   margin-bottom: -5px;
   padding-right: 5px;
 }
+.utility-bar {
+  background-color: #ececec;
+  border: 1px solid #ccc;
+  margin: 0 -7px 0 -7px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.utility-bar .utility-bar-container {
+  box-sizing: border-box;
+  width: 960px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+}
+.utility-bar .utility-bar-container .magnifying-glass-icon {
+  margin-bottom: -5px;
+  margin-right: 3px;
+  width: 15px;
+}
+.utility-bar .utility-bar-container .utility-bar-search-input > .input-bar {
+  width: 600px;
+  height: 38px;
+  border: 1px solid #ccc;
+  margin-right: 2px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 11px;
+}
+.utility-bar .utility-bar-container .utility-bar-search-input > .input-bar:focus {
+  text-decoration: underline;
+  outline: 2px solid #d6e9f9;
+}
+.utility-bar .utility-bar-container .search-btn {
+  margin-right: 6px;
+  height: 38px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #9e1e23;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.utility-bar .utility-bar-container .search-btn:hover {
+  background-color: #ccc;
+  color: #000;
+}
+.utility-bar .utility-bar-container .utility-bar-garage-input {
+  width: 170px;
+  height: 38px;
+  border: 1px solid #ccc;
+  margin-right: 2px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 11px;
+  background-color: #fff;
+  padding: 10px 15px;
+}
+.utility-bar .utility-bar-container .dropdown-btn {
+  margin-right: 6px;
+  height: 38px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #9e1e23;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.utility-bar .utility-bar-container .dropdown-btn .dropdown-icon {
+  width: 10px;
+}
+.utility-bar .utility-bar-container .utility-bar-cart > button {
+  background-color: #9e1e23;
+  width: 76px;
+  height: 38px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.utility-bar .utility-bar-container .utility-bar-cart > button .cart-widget-button-icon > img {
+  width: 20px;
+}
+.utility-bar .utility-bar-container .utility-bar-cart > button .cart-num-items {
+  font-size: 20px;
+  color: #fff;
+  padding-left: 10px;
+}

@@ -148,3 +148,94 @@ body {
     }
   }
 }
+
+.utility-bar {
+  background-color: #ececec;
+  border: 1px solid #ccc;
+  margin: 0 -7px 0 -7px;
+  padding: 5px;
+  box-sizing: border-box;
+  .utility-bar-container {
+    // border: 1px solid red;
+    box-sizing: border-box;
+    width: 960px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    .magnifying-glass-icon {
+      margin-bottom: -5px;
+      margin-right: 3px;
+      width: 15px;
+    }
+    .utility-bar-search-input > .input-bar {
+      width: 600px;
+      height: 38px;
+      border: 1px solid #ccc;
+      margin-right: 2px;
+      font-family: "Helvetica";
+      font-weight: bold;
+      font-size: 11px;
+    }
+    .utility-bar-search-input > .input-bar:focus {
+      text-decoration: underline;
+      outline: 2px solid #d6e9f9;
+    }
+    .search-btn {
+      margin-right: 6px;
+      height: 38px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      color: #9e1e23;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: @font-family;
+      font-size: 12px;
+    }
+    .search-btn:hover {
+      background-color: #ccc;
+      color: #000;
+    }
+    .utility-bar-garage-input {
+      width: 170px;
+      height: 38px;
+      border: 1px solid #ccc;
+      margin-right: 2px;
+      font-family: "Helvetica";
+      font-weight: bold;
+      font-size: 11px;
+      background-color: #fff;
+      padding: 10px 15px;
+    }
+    .dropdown-btn {
+      margin-right: 6px;
+      height: 38px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      color: #9e1e23;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: @font-family;
+      font-size: 12px;
+      .dropdown-icon {
+        width: 10px;
+      }
+    }
+    .utility-bar-cart > button {
+      background-color: #9e1e23;
+      width: 76px;
+      height: 38px;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .cart-widget-button-icon > img {
+        width: 20px;
+      }
+      .cart-num-items {
+        font-size: 20px;
+        color: #fff;
+        padding-left: 10px;
+      }
+    }
+  }
+}
